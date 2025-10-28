@@ -1,0 +1,10 @@
+name = "wholesaling-dashboard"
+type = "javascript"  # or "webpack" depending on your setup
+
+account_id = "your-cloudflare-account-id"
+workers_dev = true  # Optional, deploys to a workers-dev subdomain (e.g., https://wholesaling-dashboard.workers.dev)
+compatibility_date = "2025-10-28"  # today's date or when you are deploying
+
+# If you have KV or other services
+[[env.production]]
+name = "production"
